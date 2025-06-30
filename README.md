@@ -75,7 +75,8 @@ flutter run
 flutter run -d chrome
 ```
 
-
+CPF: 123.456.789-10
+Senha: password123
 
 
 ![image](https://github.com/user-attachments/assets/0552770d-22a8-48c6-a7c8-435b41ccbc6b)![image](https://github.com/user-attachments/assets/8c1112f0-0f03-45d5-91ec-e4472d32274e)![image](https://github.com/user-attachments/assets/e9c6d079-778e-47af-a909-8bb028e12892)
