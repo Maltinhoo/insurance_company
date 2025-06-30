@@ -3,7 +3,7 @@ enum InsuranceService {
   residential('Residencia', 'residential'),
   life('Vida', 'life'),
   motorcycle('Moto', 'seguro-auto.png'),
-  personalAccidents('Acidentes Pessoais', '.'),
+  personalAccidents('Acidentes Pessoais', 'seguro-acidentes.png'),
   enterprise('Empresa', 'seguro-empresarial.png');
 
   final String label;
