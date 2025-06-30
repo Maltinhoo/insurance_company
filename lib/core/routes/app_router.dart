@@ -46,18 +46,21 @@ class GoRouterSystem {
       ),
     ],
     redirect: (context, state) {
-      final authCubit = ServiceLocator.locator<AuthCubit>();
-      final isLoggedIn = authCubit.user != null;
+      if (kIsWeb) {
+        final authCubit = ServiceLocator.locator<AuthCubit>();
+        final isLoggedIn = authCubit.user != null;
 
-      final isSplash = state.fullPath == SplashPage.name;
-      final isLogin = state.fullPath == LoginPage.name;
+        final isSplash = state.fullPath == SplashPage.name;
+        final isLogin = state.fullPath == LoginPage.name;
 
-      if (!isLoggedIn && !isSplash && !isLogin) {
-        return SplashPage.name;
-      }
+        if (!isLoggedIn && !isSplash && !isLogin) {
+          return SplashPage.name;
+        }
 
-      if (isLoggedIn && (isSplash || isLogin)) {
-        return HomePage.name;
+        if (isLoggedIn && (isSplash || isLogin)) {
+          return HomePage.name;
+        }
+        return null;
       }
 
       return null;
