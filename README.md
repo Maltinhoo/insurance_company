@@ -64,7 +64,7 @@ Este projeto foi desenvolvido como parte do desafio técnico para a vaga de Flut
 
 ```bash
 # Clone o repositório
-git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/Maltinhoo/insurence_company)
+git clone https://github.com/Maltinhoo/insurence_company
 
 # Instale as dependências
 flutter pub get
