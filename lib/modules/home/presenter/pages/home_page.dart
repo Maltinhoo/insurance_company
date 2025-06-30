@@ -18,6 +18,7 @@ class HomePage extends StatelessWidget {
             MyFamily(),
             Gap(20),
             Contractors(),
+            Gap(20),
           ],
         ),
       ),
