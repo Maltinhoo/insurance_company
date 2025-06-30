@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "482813515235",
+    "project_id": "insurance-company-test",
+    "storage_bucket": "insurance-company-test.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:482813515235:android:122c43359c5c92b18d3cd6",
+        "android_client_info": {
+          "package_name": "com.example.insurance_company"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCW65f2Ta6py_21OgHokyjaO0qpz8kMlJo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

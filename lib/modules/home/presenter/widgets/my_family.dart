@@ -1,0 +1,45 @@
+import 'package:insurance_company/app_imports.dart';
+
+class MyFamily extends StatelessWidget {
+  const MyFamily({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        CustomText(
+          'Minha Familia',
+          margin: EdgeInsets.symmetric(horizontal: 20),
+          fontWeight: FontWeight.w800,
+          fontFamily: FontFamily.roboto.family,
+          size: 24,
+        ),
+        Gap(8),
+        Container(
+          margin: EdgeInsets.symmetric(horizontal: 20),
+          width: double.infinity,
+          padding: EdgeInsets.symmetric(vertical: 40, horizontal: 20),
+          decoration: BoxDecoration(
+            color: AppColors.primaryLight,
+            borderRadius: BorderRadius.circular(10),
+          ),
+          child: Column(
+            children: [
+              Vector(Vectors.add_circle, color: AppColors.white, size: 50),
+              Gap(20),
+              CustomText(
+                'Adicione aqui membros da sua familia e compartilhe os seguros com eles.',
+                margin: EdgeInsets.symmetric(horizontal: 20),
+                fontWeight: FontWeight.w500,
+                textAlign: TextAlign.center,
+                fontFamily: FontFamily.roboto.family,
+                size: 12,
+              ),
+            ],
+          ),
+        ),
+      ],
+    );
+  }
+}
