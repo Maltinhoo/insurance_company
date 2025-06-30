@@ -1,1 +1,35 @@
-{"flutter":{"platforms":{"android":{"default":{"projectId":"insurance-company-test","appId":"1:482813515235:android:122c43359c5c92b18d3cd6","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"insurance-company-test","configurations":{"android":"1:482813515235:android:122c43359c5c92b18d3cd6","ios":"1:482813515235:ios:46ba022f99cd17c28d3cd6","macos":"1:482813515235:ios:46ba022f99cd17c28d3cd6","web":"1:482813515235:web:1e2311c49d6fbc518d3cd6","windows":"1:482813515235:web:ee627779c4c2d6188d3cd6"}}}}}}
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "insurance-company-test",
+          "appId": "1:482813515235:android:122c43359c5c92b18d3cd6",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "insurance-company-test",
+          "configurations": {
+            "android": "1:482813515235:android:122c43359c5c92b18d3cd6",
+            "ios": "1:482813515235:ios:46ba022f99cd17c28d3cd6",
+            "macos": "1:482813515235:ios:46ba022f99cd17c28d3cd6",
+            "web": "1:482813515235:web:1e2311c49d6fbc518d3cd6",
+            "windows": "1:482813515235:web:ee627779c4c2d6188d3cd6"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
